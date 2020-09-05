@@ -53,9 +53,27 @@
     --max-width: 1170px;
     --fixed-width: 620px;
     
+  --font-size--small: calc((14/16) * 1rem); /* 14px */
+  --font-size--default: calc((16/16) * 1rem); /* 16px */
+  --font-size--large: calc((24/16) * 1rem); /* 24px */
+
+  /* Typography | Global */
+  /* body font size */
+  --text-base-size: 1em;
+
+  /* type scale */
+  --text-scale-ratio: 1.2;
+  --text-xs: calc((1em / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md: calc(var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
 }
 
-
-  
- 
-
+@media (min-width: 64rem) {
+  :root {
+    --text-base-size: 1.25em;
+    --text-scale-ratio: 1.25;
+  }
+}

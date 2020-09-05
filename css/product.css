@@ -1,0 +1,49 @@
+.position-relative {
+    position: relative !important;
+}
+
+.category-item {
+    display: block;
+    position: relative;
+    color: #343a40;
+}
+  
+.category-item-title {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0.8rem;
+}
+  
+.product-overlay {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem 0;
+
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+  
+.bg-center {
+    background-position: center center !important;
+}
+  
+.reset-anchor {
+    color: inherit;
+}
+  
+.reset-anchor:hover, .reset-anchor:focus {
+    text-decoration: none;
+}
