@@ -172,7 +172,7 @@ input[type="button"].btn-block {
     background: #d73851;
     border: 1px solid #d73851;
 }
-
+/* box-shadow */
 .flex-form {
     display: flex;
     z-index: 10;
